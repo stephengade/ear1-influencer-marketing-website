@@ -1,0 +1,144 @@
+
+.footer-section {
+    margin-top: 65rem;
+    font-family: $body-text;
+
+   .container {
+       width: 100%;
+
+       hr {
+           height: 1px;
+           opacity: 0.5;
+
+       }
+   }
+  
+}
+
+.row {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ box-sizing: border-box;
+ justify-content: space-around;
+
+ margin-bottom: calc(1vw + .5rem);
+
+    .columns {
+        width: 16%;
+    }
+
+}
+
+.newsletter {
+margin: 4rem 0% 4rem 21%;
+
+
+p {
+    color: #000;
+    font-size: 2rem;
+    margin-top: 2rem;
+
+    span {
+        opacity: 1;
+        font-weight: 700;
+        color: #121212;
+    }
+}
+
+}
+
+.newsletter {
+    form {
+       width: 100%;
+       border-style: solid;
+       border-width: 1px;
+       border-radius: 5px;
+
+       input {
+           width: 80%;  
+       }
+
+       button {
+           padding: 1%;
+           height: calc(inherit + 2px);
+           background-color: #121212!important;
+           color: #fff;
+           width: 20%;
+            padding: 1rem .5rem;
+       }
+     
+    }
+}
+
+.column1 {
+
+    h2 {
+        a {
+            color: black;
+            text-decoration: none;
+            font-size: 2.7rem;
+        }
+    }
+ 
+     &-social {
+      margin-top: 2.5rem;
+         img {
+             background-color: #F2F2F2;
+             border-radius: 50%;
+             padding: 0.5rem;
+             margin-right: 1rem;
+
+             &:hover {
+                  background-color: $green-color;
+             }
+         }
+     }
+
+     .nav-brand {
+
+            a {
+                color: $logo-black;
+                text-decoration: none;
+                font-size: 2rem;
+                font-weight: 900!important;
+                display: inline-block;
+            }
+        }
+}
+
+.columns {
+    margin-top: 2rem;
+    
+    h2 {
+        font-weight: 700;
+        color: #121212;
+        margin-top: 1rem;
+    }
+
+        .nav-link {
+    display: block;
+    padding: .5rem 1rem .5rem 0rem;
+}
+
+    ul {
+        margin-top: 1rem;
+
+        &:last-child {
+            margin-bottom: 3rem;
+        }
+
+        li {
+
+            a {
+                color: #121212;
+                opacity: 0.6;
+                font-size: 1.8rem;
+
+                &:hover {
+               opacity: 1;
+                }
+            }
+        }
+    }
+}

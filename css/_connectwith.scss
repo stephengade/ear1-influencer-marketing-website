@@ -1,0 +1,76 @@
+.influ-section {
+    background-color: #fff;
+    font-family: $body-text;
+   overflow-x: hidden;
+   max-width: 100vw;
+
+
+    .container {
+        padding: 9rem 5rem 3rem 12rem;
+
+        .row {
+            flex-direction: row-reverse!important;
+        }
+
+    }
+
+    .influencer-cta {
+        align-self: center;
+
+        h2 {
+            font-size: 5rem;
+            width: 100%;
+            margin: 2rem 0rem;
+        }
+
+        p {
+            font-size: 2rem;
+            width: 80%;
+        }
+    }
+
+    .influencer-images {
+        height: 500px;
+
+    }
+
+    .swipe-images {
+        margin-top: 5rem;
+        margin-left: 2rem;
+        width: 376.19px;
+        height: 439px;
+        background-color: #C4C4C4;
+
+
+        img {
+            background-color: $orange-color;
+            transform: rotate(-5.14deg);
+            width: 376.19px;
+            height: 438.89px;
+            z-index: 1;
+        }
+    }
+}
+
+
+.influencer-images {
+    visibility: hidden;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.swipe-images {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+.swipe-images.img02 {
+    display: none;
+}
+
+.swipe-images.img03 {
+    display: none;
+}

@@ -1,0 +1,133 @@
+.hero {
+    background: linear-gradient(to right, $green-color), url(/Images/Rectangle-hero.png);
+    color: #ffffff;
+    overflow: hidden;
+    width: 100%;
+    min-height: 100vh;
+    
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        margin: -2rem 5rem;
+
+        .nav-brand {
+
+
+            a {
+                color: $logo-black;
+                text-decoration: none;
+                font-size: 2rem;
+                font-weight: 900!important;
+                display: inline-block;
+            }
+        }
+
+        ul {
+            display: flex;
+           justify-content: space-between;
+
+           .hamburger {
+               display: none;
+           }
+
+
+           a {
+                color: #fff;
+                font-size: 1.5rem;
+                font-family: $body-text;
+                padding-right: 5rem;
+
+
+                &:hover {
+                    color: $grey-color;
+                }
+            }
+        }
+    }
+
+    .hero-text {
+        width: 70%;
+        margin: 0 auto;
+        font-family: $header-font;
+        margin-top: 8rem;
+        margin-bottom: 1rem;
+
+       
+        h1 {
+            font-size: 9rem;
+            font-weight: 900!important;
+            margin-bottom: 1.5rem;
+
+        }
+
+        p {
+            font-size: 2rem;
+            width: 68%;
+            margin: 0 auto;
+            margin-bottom: 1rem;
+        }
+    }
+
+    .hero-images {
+        position: relative;
+        z-index: 1;
+        width: 80%;
+        margin: -10rem auto 0 auto;
+      
+    }
+
+    .appCenter {
+        margin-left: -12rem;
+        transform: translate3d(0, 100px, 0);
+    }
+
+    .appCenterMobile {
+        transform: translate3d(0, 100px, 0)!important;
+         }
+ 
+
+    .appMockup {
+        position: absolute;
+        bottom: 0;
+        left: -20%;
+        z-index: -1;
+       transform: translate3d(0, 100px, 0);
+
+
+    }
+
+    .appRight {
+        left: 10%;
+        margin-left: 1%;
+
+    }
+
+    .hero-download {
+            margin-top: 0.5rem;
+            .apple-icon {
+                height: 60px;
+                cursor: pointer;
+            }
+
+            .google-icon {
+                height: 80px;
+                cursor: pointer;
+            }
+        }
+    
+}
+
+
+// Animation 
+
+@keyframes slideUp {
+     from {
+ transform: translateY(50%);
+    opacity: 0;
+     }
+
+     to {
+  transform: translateY(0%);
+  opacity: 1;
+     }
+}

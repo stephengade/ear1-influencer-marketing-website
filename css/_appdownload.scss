@@ -1,0 +1,66 @@
+.app-download {
+    font-family: $body-text;
+    margin-top: -20rem; 
+    //overflow-x: hidden;
+
+
+    .container {
+          color: #ffffff;
+           position: relative;
+           
+
+          .row {
+               background: linear-gradient(to right, $green-color), url(/Images/Rectangle-hero.png);
+               border-radius: 60px;
+               position: absolute;
+          }
+    }
+}
+
+.app-hands {
+     transform: translate3d(0, 113px, 0)!important;
+
+    img {
+     height: 80%;
+     transform-origin: bottom;
+     padding-left: 10rem;
+    
+    }
+}
+
+.app-text {
+    align-self: center;
+    padding-right: 5rem;
+
+    margin: 0 auto;
+    h2 {
+        font-size: 6rem;
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 1.5rem;
+         margin: 2rem 0rem;
+    }
+
+    .hero-download {
+        display: flex;
+
+         img {
+            margin: 0 auto;
+            width: 184.733px;
+            height: 63.9167px;
+        }
+
+         .apple-icon {
+                width: 184.733px;
+               height: 55.9167px; 
+               margin-top: 2px;
+            }
+
+    }
+}
+
+           
+
+           

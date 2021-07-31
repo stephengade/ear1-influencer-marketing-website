@@ -1,0 +1,111 @@
+    .hamburger {
+                position: relative;
+                z-index: 1;
+                right: 1rem;
+                top: 1rem;
+                height: 0.2rem;
+                width: 0.5rem;
+                cursor: pointer;
+
+
+                .trigger {
+                 width: 3rem;
+                height: 0.2rem;
+                background-color: #fff;
+                position: absolute;
+                top: 0.5rem;
+                margin-bottom: .5rem;
+                right: 0;
+                display: inline-block;
+
+                
+
+                &::before {
+                    content: '';
+                    width: 3rem;
+                height: 0.2rem;
+                background-color: #fff;
+                position: absolute;
+                top: -0.5rem;
+                }
+
+                &::after {
+                    content: '';
+                    width: 3rem;
+                height: 0.2rem;
+                background-color: #fff;
+                position: absolute;
+                top: 0.5rem;
+                }
+
+              &.open {
+                    transform: rotate(720deg);
+                    background:transparent;
+
+                    &::before {
+                       transform: rotate(45deg) translate(10px, 5px);
+                    }
+
+                    &::after {
+                       transform: rotate(-45deg);
+                    }
+                }
+                }
+    }
+
+
+.mobileMenu {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100vw;
+   height: 100vh;
+  // opacity: 0.9;
+   visibility: hidden;
+   margin-top: -10rem;
+
+   &.open {
+       visibility: visible;
+   }
+
+   .navList {
+       display: flex;
+       flex-flow: column wrap;
+       justify-content: center;
+       overflow: hidden;
+       align-items: center;
+       height: 100vh;
+       background: $green-color;
+       transform: translateX(100%);
+       transition: all .5s ease-in-out;
+         margin-top: 10rem;
+
+       &.open {
+           transform: translateX(0);
+       }
+
+   }
+
+   .nav-item {
+       font-family: $body-text;
+       padding: 2.5rem 0;
+       transition: all .2s ease-in-out;
+
+       a {
+           color: #fff;
+           font-size: 2rem;
+           font-weight: 900;
+           
+
+           &:hover {
+               opacity: 0.9;
+               font-size: 2.5rem;
+               outline: solid;
+               outline-width: 3px;
+               outline-color: $orange-color;
+               transition: all .3s ease-in-out;
+           }
+       }
+   }
+
+}

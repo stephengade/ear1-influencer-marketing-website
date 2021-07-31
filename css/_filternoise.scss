@@ -1,0 +1,73 @@
+.filter-section {
+    background-color: #202020;
+    font-family: $body-text;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+
+
+    .filter-text {
+         align-self: center;
+         color: #fff;
+         padding: 2rem 5rem;
+
+
+        h2 {
+            font-size: 5rem;
+        
+            margin: 2rem 0rem;
+
+        }
+
+        p {
+            font-size: 2rem;
+        }
+    }
+
+    .filter-image {
+        margin: 0 auto;
+     background: #272727;
+      align-self: center;
+
+
+        .filter-popup {
+            background: linear-gradient(to right, rgba(54, 54, 54, 1)), url(/Images/pop-bg.png);
+            background-repeat: no-repeat;
+            border-radius: 20px;
+            width: 80%;
+            margin: 5rem auto;
+            padding: 5rem;
+   
+       
+
+            .alert-message {
+            display: flex;
+            }
+            
+            p {
+                font-family: $body-text;
+                font-size: 1.5rem;
+                align-self: center;
+                margin-left: 2rem;
+
+                strong {
+                    color: #fff;
+                }
+
+                span {
+                    color: $grey-color;
+                }
+            }
+
+            .popup-buttons {
+                display: flex;
+                justify-content: space-between;
+                width: 90%;
+                padding-top: 1.5rem;
+
+                .btn-lg {
+                    width: 45%;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.earn-money-section {
+    background-color: #ffffff;
+    font-family: $body-text;
+    padding-top: 8rem;
+
+
+
+    .earn-money-text {
+         align-self: center;
+
+
+
+        h2 {
+            font-size: 5rem;
+            width: 60%;
+            margin: 2rem 0rem;
+        }
+
+        p {
+            width: 60%; 
+            font-size: 2rem;
+        }
+    }
+
+    .earn-money-image {
+        margin: 0 auto;
+    }
+}

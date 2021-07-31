@@ -1,0 +1,33 @@
+// Colors
+$grey-color: #D2D9D6;
+$orange-color: #FFBB62;
+$light-orange: #FF8C62;
+$red-color: #E34D4D;
+$green-color: #029C56;
+$black-button: #121212;
+$logo-black: #00070F;
+
+
+// Fonts
+
+$body-text: 'DM Sans', sans-serif;
+$header-font: 'DM Sans', sans-serif;
+
+
+.cta-btn {
+    background-color: $orange-color;
+    padding: 0rem 1rem;
+    font-size: 1.6rem;
+    border-radius: 50px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.chat-icon {
+   border-radius: 50%;
+   padding: 1rem;
+   border-style: solid;
+   border-color: $orange-color;
+   border-width: 0.2rem;
+   cursor: pointer;
+}

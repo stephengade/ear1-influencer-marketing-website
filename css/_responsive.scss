@@ -1,0 +1,564 @@
+// Mobile Responsiveness
+@media only screen and (min-width: 0px) and (max-width: 479px){
+
+    .hero {
+        height: calc(100vh + 30vh)!important;
+        .nav {
+          margin: -2rem 3rem!important;
+            li {
+                display: none;
+            }
+
+        .nav-brand,    ul {
+                margin-top: 3rem;
+            }
+        }
+
+        .hero-text {
+            width: 90%!important;
+            h1 {
+                font-size: 5rem!important;
+            }
+
+            p {
+                width: 95%!important;
+                font-size: 1.7rem!important;
+            }
+        }
+
+    }
+     .appCenterMobile {
+         display: block!important;
+          transform: translate3d(0, 100px, 0);
+          margin-left: -6.3%;
+     }
+
+     .hamburger {
+         display: inline-block!important;
+     }
+
+     .appCenter, .appLeft, .appRight {
+         display: none;
+     }
+
+     // Mobile-What can
+.ear1-features {
+
+    .features-text {
+        z-index: 1;
+        h2 {
+            font-size: 3rem!important;
+            margin-bottom: 1rem!important;
+        }
+
+        p {
+            padding-right: 3rem!important;
+        }
+    }
+
+        .features-image {
+             margin-left: 25rem!important;
+
+             img {
+                 height: 20rem!important;
+              margin-top: -60rem!important; 
+               z-index: -1!important;
+             }
+        }
+
+       
+    }
+
+    // Mobile-influ 
+
+    .influ-section {
+        overflow: hidden;
+       
+        .container {
+            padding: 5rem!important;
+            
+        }
+
+        .influencer-cta {
+            margin-top: 3.5rem!important;
+        }
+
+        
+
+        h2 {
+             font-size: 2.5rem!important;
+              width: 100%!important;
+               margin: 2rem auto!important;
+        }
+
+        p {
+            font-size: 1.8rem!important;
+             width: 100%!important;
+        }
+    }
+    
+     .influencer-images {
+            height: 400px!important;
+        }
+
+        .swipe-images {
+            height: 260px!important;
+            width: 222px!important;
+
+            img {
+                width: 223.54px!important;
+                height: 260.79px!important;
+            }
+        }
+
+        // Mobile-replies
+
+        .fans-chat {
+            display: none!important
+        }
+
+        .fans-cta {
+            width:100%!important;
+            padding: 10rem 5% 10rem 10%!important;
+
+            h2 {
+                font-size: 3rem!important;
+            }
+        }
+
+        //Mobile-earnMoney
+
+        .earn-money-section {
+            
+      .row {
+         display: flex;
+          flex-direction: column-reverse;
+      }
+       
+       .earn-money-text {  
+        padding-left: 5rem;
+
+        h2, p {
+            width: 100%!important;
+        } 
+
+        h2 {
+            font-size: 2.5rem!important;
+        }
+       }
+
+       .earn-money-image {
+           margin-left: -4rem!important;
+       }
+        }
+
+        // Mobile-filter 
+
+        .filter-image {
+            display: none!important;
+        }
+
+        // Mobile-faq
+
+        .faq-section {
+            h2 {
+                width: 100%!important;
+            }
+        }
+
+        .row .assurance li:nth-child(2):after {
+    height: 250px!important;
+}
+
+
+
+.faq-image  {
+    margin-left: -4rem!important;
+}
+
+// Mobile-app
+
+.app-download {
+    .app-hands {
+        display: none!important;
+    }
+
+    .row {
+        width: 90%!important;
+        margin: auto!important;
+    }
+
+    .app-text {
+        padding: 10rem 5rem!important;
+
+        h2 {
+            font-size: 3rem;
+           margin-bottom: 1rem;
+        }
+    }
+}
+
+//mobile footer
+
+.footer-section {
+    margin-top: 55rem!important;
+
+    .row {
+        flex-direction: column!important;
+    }
+}
+
+.newsletter {
+margin: 4rem 0%!important;
+}
+
+
+.columns {
+    width: 100%!important;
+    padding-left: 5rem;
+
+    a {
+        display: inline-block!important;
+    }
+}
+}
+
+
+
+
+// Tablet 
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+    .hero {
+
+        .nav {
+            li {display:none;}
+        }
+        .hero-text {
+            width: 90%!important;
+
+            h1 {
+                font-size: 6rem!important;
+            }
+
+            p {
+                width: 80%!important;
+            }
+        }
+    }
+
+
+     .hamburger {
+         display: inline-block!important;
+     }
+
+      .appLeft, .appRight {
+         display: none;
+     }
+
+     // Tablet-what
+
+     .ear1-features {
+
+    .features-text {
+        z-index: 1;
+        h2 {
+            font-size: 5rem!important;
+        }
+
+        p {
+            padding-right: 3rem!important;
+        }
+    }
+
+        .features-image {
+             margin-left: 25rem!important;
+
+             img {
+                 height: 20rem!important;
+              margin-top: -60rem!important; 
+               z-index: -1!important;
+             }
+        }
+    }
+
+    // Tablet-influ
+ 
+   .influ-section {
+        overflow: hidden;
+       
+        .container {
+            padding: 8rem!important;
+            
+        }
+
+        .influencer-cta {
+            margin-top: 3.5rem!important;
+        }
+
+        
+
+        h2 {
+             font-size: 3.5rem!important;
+              width: 100%!important;
+               margin: 2rem auto!important;
+        }
+
+        p {
+            font-size: 1.8rem!important;
+             width: 100%!important;
+        }
+    }
+    
+     .influencer-images {
+            height: 450px!important;
+        }
+
+        .swipe-images {
+            height: 310px!important;
+            width: 272px!important;
+
+            img {
+                width: 273.54px!important;
+                height: 310.79px!important;
+            }
+        }
+  
+  // Tablet-replies
+
+  .fans-chat {
+            display: none!important
+        }
+
+        .fans-cta {
+            padding: 10rem 3%!important;
+        }
+
+        // Tablet-earn
+
+        .earn-money-section {
+            
+      .row {
+         display: flex;
+          flex-direction: column-reverse;
+      }
+       
+       .earn-money-text {  
+        padding-left: 5rem;
+
+        h2, p {
+            width: 90%!important;
+        } 
+       }
+
+       .earn-money-image {
+           margin-left: -4rem!important;
+       }
+        }
+
+        // Tablet-filter
+
+        .filter-image {
+            display: none!important;
+        }
+
+        // Tablet-faq
+
+        .faq-section {
+            h2 {
+                width: 80%!important;
+            }
+
+            .faq-image {
+                margin-left: -4rem!important;
+            }
+        }
+
+ // Tablet-app
+
+ .app-download {
+    .app-hands {
+        display: none!important;
+    }
+
+    .row {
+        width: 90%!important;
+        margin: auto!important;
+    }
+
+    .app-text {
+        padding: 10rem 5rem!important;
+
+        h2 {
+            font-size: 4.5rem;
+           margin-bottom: 1rem;
+        }
+    }
+}
+
+// Tablet-footer 
+
+.footer-section {
+    margin-top: 50rem!important;
+
+    .row {
+        flex-direction: row!important;
+    }
+}
+
+.newsletter {
+margin: 4rem 0%!important;
+}
+
+
+.columns {
+    width: 100%!important;
+    padding-left: 5rem;
+
+    .column1, .column2, .column3, .column4, .column5 {
+        width: 50%!important;
+    }
+
+    a {
+        display: inline-block!important;
+    }
+}
+}
+
+// Small laptop
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+   .hero {
+       .nav {
+             margin: -2rem auto!important;
+
+             .nav-brand {
+                 margin-left: 2rem!important;
+             }
+       }
+
+       .hero-text {
+           width: 90%!important;
+
+           h1 {
+               width: 100%!important;
+           }
+
+           p {
+               width: 80%!important;
+           }
+       }
+   }
+
+   // Laptop-what
+
+   .ear1-features {
+
+    .features-text {
+        z-index: 1;
+        h2 {
+            font-size: 5rem!important;
+        }
+
+        p {
+            padding-right: 3rem!important;
+        }
+    }
+
+        .features-image {
+             margin-left: 35rem!important;
+
+             img {
+                 height: 20rem!important;
+              margin-top: -50rem!important; 
+               z-index: -1!important;
+             }
+        }
+    }
+
+    // Laptop-influ
+
+    .influencer-cta {
+        margin-top: 5rem!important;
+    }
+
+    // lp-faq
+.app-download {
+    margin-top: -10rem!important;
+
+}
+
+.faq-section {
+      h4 {
+        font-size: 3rem!important;
+    }
+
+    p {
+        font-size: 1.8rem!important;
+    }
+}
+     .faq-image {
+         margin-top: 5rem;
+    //      img {
+    //    //height: calc(100% + 2rem)!important;
+    //      }
+        }
+
+    // Laptop-Earn
+
+     .earn-money-text {  
+        padding-left: 5rem;
+
+        h2, p {
+            width: 90%!important;
+        } 
+       }
+
+       // lp-app
+
+       .app-download {
+          
+   .app-hands {
+       display: none!important;
+   }
+
+    .row {
+        width: 100%!important;
+        margin: auto!important;
+    }
+   
+   .hero-download {
+       justify-content: center!important;
+   }
+
+    .app-text {
+        padding: 10rem 5rem!important;
+        text-align: center;
+
+        h2 {
+            font-size: 4.5rem;
+           margin-bottom: 1rem;
+        }
+    }
+
+}
+
+.footer-section {
+    margin-top: 50rem!important;
+}
+}
+
+
+
+// Desktop 
+@media only screen and (min-width: 1024px) and (max-width: 1199px){
+
+
+   
+   
+}
+
+
+
+
+
